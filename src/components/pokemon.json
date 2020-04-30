@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "image": "https://img.pokemondb.net/artwork/pikachu.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Raichu",
+      "image": "https://img.pokemondb.net/artwork/raichu.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Butterfree",
+      "image": "https://img.pokemondb.net/artwork/butterfree.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Charizard",
+      "image": "https://img.pokemondb.net/artwork/charizard.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Squirtle",
+      "image": "https://img.pokemondb.net/artwork/squirtle.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jigglypuff",
+      "image": "https://img.pokemondb.net/artwork/jigglypuff.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Snorlax",
+      "image": "https://img.pokemondb.net/artwork/snorlax.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Mewtwo",
+      "image": "https://img.pokemondb.net/artwork/mewtwo.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Mr. Mime",
+      "image": "https://img.pokemondb.net/artwork/mr-mime.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Psyduck",
+      "image": "https://img.pokemondb.net/artwork/psyduck.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Caterpie",
+      "image": "https://img.pokemondb.net/artwork/caterpie.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Meowth",
+      "image": "https://img.pokemondb.net/artwork/meowth.jpg"
+    }
+]

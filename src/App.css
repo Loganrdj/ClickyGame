@@ -1,0 +1,12 @@
+.wrapper{
+  padding-top: 3%;
+  overflow: auto;
+  align-content: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card{
+  margin: 1%;
+}

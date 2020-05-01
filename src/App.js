@@ -4,6 +4,7 @@ import PreviewCard from './components/PreviewCard'
 import pokemon from './components/pokemon'
 import Nav from './components/Nav'
 import './App.css';
+const shuffle = require('shuffle-array')
 
 class App extends Component {
   state = {
@@ -18,9 +19,11 @@ class App extends Component {
     if(this.state.clicked.includes(id)){
       alert("You lose")
       this.resetScore();
+      this.shuffleArray();
     } else {
       this.state.clicked.push(id);
       this.incrementScore();
+      this.shuffleArray();
     }
   }
 
@@ -34,6 +37,11 @@ class App extends Component {
   resetScore = () => {
     this.setState({score: 0})
     this.setState({clicked: []});
+    this.shuffleArray();
+  }
+
+  shuffleArray = () => {
+    shuffle(this.state.pokemon);
   }
   
   render(){

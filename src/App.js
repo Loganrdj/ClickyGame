@@ -17,7 +17,7 @@ class App extends Component {
 
   clickImage = (id) =>{
     if(this.state.clicked.includes(id)){
-      alert("You lose")
+      alert("You have lost. Please try again! Make sure to only click each picture once!")
       this.resetScore();
       this.shuffleArray();
     } else {

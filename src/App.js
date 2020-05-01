@@ -32,6 +32,10 @@ class App extends Component {
     if (this.state.score >= this.state.highScore){
       this.setState({highScore: this.state.score + 1});
     }
+    if (this.state.score === 16){
+      alert("You've won! Congratulations! I don't have anything to offer you, unfortunately.. Have a virtual high-five! *Smack*")
+      this.resetScore();
+    }
   }
 
   resetScore = () => {

@@ -16,6 +16,7 @@ class App extends Component {
   }
 
   clickImage = (id) =>{
+    console.log(this.state.score);
     if(this.state.clicked.includes(id)){
       alert("You have lost. Please try again! Make sure to only click each picture once!")
       this.resetScore();
@@ -28,12 +29,11 @@ class App extends Component {
   }
 
   incrementScore = () => {
-    console.log(this.state.score);
     this.setState({score: this.state.score + 1});
     if (this.state.score >= this.state.highScore){
       this.setState({highScore: this.state.score + 1});
     }
-    if (this.state.score === 11){
+    if (this.state.score === 12){
       alert("You've won! Congratulations! I don't have anything to offer you, unfortunately.. Have a virtual high-five! *Smack*")
       this.resetScore();
     }

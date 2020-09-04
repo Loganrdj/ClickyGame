@@ -10,7 +10,7 @@ class App extends Component {
   state = {
     pokemon,
     name: "",
-    score: 0,
+    score: 1,
     highScore: 0,
     clicked: []
   }
